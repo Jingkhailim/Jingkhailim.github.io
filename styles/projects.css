@@ -247,7 +247,9 @@
     border:1px solid rgb(224, 224, 224);
 
 }
-/*Experience */
+/*
+
+*/
 .experience, .education{
     width:70%;
     margin:0 auto 100px auto;
@@ -258,7 +260,7 @@
 .experience-title{
     font-size: 2.4rem;
     margin-bottom: 20px;
-    font-weight: 800;
+    font-weight: 700;
     color:#343b54;
 }
 .experience-flexbox{
