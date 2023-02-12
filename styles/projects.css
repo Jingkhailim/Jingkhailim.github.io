@@ -15,9 +15,10 @@
 
 :root{
     --primary-color:rgb(69, 69, 69);
-
+    --blue-color: #4b586d;
     --title-color:#5E5E5E;
     --texting-color:#A1A1A1;
+    --light-color:rgb(122, 202, 255);
 
 }
 
@@ -59,7 +60,7 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-
+/*pads*/
 .projects{
     margin-top:20px;
     margin-bottom: 100px;
@@ -70,49 +71,38 @@
 .projects hr{
     margin: 4rem 0 5rem 0;
 }
-.card-description hr{
-    margin-top:1rem;
-    margin-bottom: 1rem;
 
-}
-.link-projects{
-    margin:4rem 0 0 0;
-}
 .project-title{
     font-size:2.7rem;
     text-align: center;
     font-weight: 600;
     margin-top:4rem;
     margin-bottom: 50px;
-    color:#343b54
+    color:#343b54;
 
 }
 .projects .cards{
-
     display:grid;
     padding:4rem 4rem;
-    grid-template-columns: 0.5fr 2fr;
+    grid-template-columns: 0.5fr 1.25fr;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     gap:50px;
     align-self:stretch;
-    margin-bottom: 50px;
-    margin-top: 50px;
-
-
-    
+    /* margin-bottom: 50px;
+    margin-top: 50px; */
 }
 
 
 .projects .cards img{
     width:100%;
-    border-radius: 3px;
+    border-radius: 5px;
     transition: 0.5s;
     object-fit:contain;
 }
 .projects .cards img:hover{
-    box-shadow: 8px 8px 20px #4b586d;
+    box-shadow: 30px 30px 1px #31538a;
 
 }
 .card-title{
@@ -123,36 +113,42 @@
     margin-bottom: 2rem;
 
 }
-/* 
+
 .card-tag{
     display:flex;
     justify-content: left;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 .card-tag .tags-tags{
     padding:6px 15px;
     margin-right: 15px;
-    background-color:var(--darker-golden);
-    color:rgb(251, 251, 251);
-    border-radius: 12px;
+    background-color:rgb(195, 231, 255);
+    color:rgb(13, 107, 201);
+    font-weight: 100;
+    border-radius: 20px;
     transition: 0.5s;
     
 }
-.card-tag .tags-tags:hover{
+/* .card-tag .tags-tags:hover{
     color:black;
     background-color: white;
     outline: solid 0.2px black;
     outline-offset: -0.2px;
     cursor: pointer;
+
 } */
+.grid-image{
+    align-self: center;
+}
 .card-tag{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
 }
 
 .tags-tags{
     margin-bottom: 0.5rem;
-    color:rgb(98, 98, 98);
+
 
 }
 .card-text{
@@ -255,11 +251,11 @@
     margin:0 auto 100px auto;
 }
 .experience-card hr{
-    margin: 5rem 0;;
+    margin: 3rem 0;;
 }
 .experience-title{
-    font-size: 2.4rem;
-    margin-bottom: 20px;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
     font-weight: 700;
     color:#343b54;
 }
@@ -272,8 +268,8 @@
 }
 .experience-description{
     color:rgb(93, 93, 93);
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size:1.3rem;
 }
 /*Connect*/
