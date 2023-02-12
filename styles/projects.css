@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+
+    font-family: Helvetica, sans-serif;
+}
+.top.scroll {
+    background-color: white;
+    color: black;
+}
+
+:root{
+    --primary-color:rgb(69, 69, 69);
+    --blue-color: #4b586d;
+    --title-color:#5E5E5E;
+    --texting-color:#A1A1A1;
+    --light-color:rgb(122, 202, 255);
+
+}
+
+.aboutme{
+    width:80%;
+    margin:10px auto 120px auto;
+    color:#eaeaea;
+    padding:2rem 3rem;
+    border-radius: 15px;
+    
+}
+.aboutme .cards{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap:50px;
+    align-self: center;
+    flex-wrap: wrap;
+
+
+}
+.aboutme-text{
+    overflow:auto;
+    display:inline;
+
+    font-weight: 200;
+    font-size: 1.4rem;
+    color:#eaeaea;
+
+    /* font-family: 'Manrope', sans-serif; */
+
+    
+}
+.aboutme-text ul li{
+    margin-bottom: 10px;
+}
+.aboutme img{
+    width:100%;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*pads*/
+.projects{
+    margin-top:20px;
+    margin-bottom: 100px;
+
+    margin-left:auto;
+    margin-right: auto;
+}
+.projects hr{
+    margin: 4rem 0 5rem 0;
+}
+
+.project-title{
+    font-size:2.7rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top:4rem;
+    margin-bottom: 50px;
+    color:#343b54;
+
+}
+.projects .cards{
+    display:grid;
+    padding:4rem 4rem;
+    grid-template-columns: 0.5fr 1.25fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap:50px;
+    align-self:stretch;
+    /* margin-bottom: 50px;
+    margin-top: 50px; */
+}
+
+
+.projects .cards img{
+    width:100%;
+    border-radius: 5px;
+    transition: 0.5s;
+    object-fit:contain;
+}
+.projects .cards img:hover{
+    box-shadow: 30px 30px 1px #31538a;
+
+}
+.card-title{
+    font-size: 2rem;
+    font-weight:550;
+    
+    color:#343b54;
+    margin-bottom: 2rem;
+
+}
+
+.card-tag{
+    display:flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.card-tag .tags-tags{
+    padding:6px 15px;
+    margin-right: 15px;
+    background-color:rgb(195, 231, 255);
+    color:rgb(13, 107, 201);
+    font-weight: 100;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+/* .card-tag .tags-tags:hover{
+    color:black;
+    background-color: white;
+    outline: solid 0.2px black;
+    outline-offset: -0.2px;
+    cursor: pointer;
+
+} */
+.grid-image{
+    align-self: center;
+}
+.card-tag{
+    font-size: 1.2rem;
+
+}
+
+.tags-tags{
+    margin-bottom: 0.5rem;
+
+
+}
+.card-text{
+    font-weight:200;
+    transition:0.3s;
+    font-size: 1.2rem;
+}
+
+.card-text:hover{
+    transform: translateX(10px);
+}
+.mentions, .connect{
+    /* background: linear-gradient(135deg,#424242,#535f88 50%,#535f88 65%,#685596); */
+    background: linear-gradient(135deg,#282828 25%,#343b54 75%);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+    background-attachment: fixed;
+}
+/*------Mentions------*/
+.mentions{
+    margin-bottom: 4rem;
+
+}
+.mentions .project-title,.aboutme .project-title{
+    color:#eaeaea
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.mentions .cards{
+    display:flex;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: center;
+    gap:70px;
+    margin:0 auto;
+}
+
+.mentions .mentions-card{
+    width:285px;
+
+}
+
+.mentions{
+    color:rgb(231, 231, 231);
+}
+
+.mentions-title{
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight:600;
+}
+.mentions-author{
+    margin-bottom: 10px;
+    color:#a6c8ff;
+    font-weight: 500;
+    font-size:20px
+}
+.mentions-text{
+    text-align: justify;
+    font-size:20px
+}
+.mentions .read-more{
+    margin:50px auto 100px auto;
+
+    text-align: center;
+
+
+}
+.mentions .read-more a{
+    width: 150px;
+    text-decoration: none;
+    color:#a6c8ff;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid #a6c8ff;
+    padding:10px 20px;
+    transition: 0.4s;
+}
+.mentions .read-more a:hover{
+
+    color:white;
+    border:1px solid rgb(224, 224, 224);
+
+}
+/*
+
+*/
+.experience, .education{
+    width:70%;
+    margin:0 auto 100px auto;
+}
+.experience-card hr{
+    margin: 3rem 0;;
+}
+.experience-title{
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color:#343b54;
+}
+.experience-flexbox{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+    font-size: 1.4rem;
+
+}
+.experience-description{
+    color:rgb(93, 93, 93);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size:1.3rem;
+}
+/*Connect*/
+.connect{
+    width: 100%;
+    background-color: #646464;
+    color:white;
+    text-align: center;
+    padding-top: 8rem ;
+    padding-bottom: 8rem;
+
+}
+.connect-name{
+    font-weight:700;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.connect .social{
+
+    
+    margin: 30px auto 50px auto;
+}
+
+.connect .copyright{
+    color:rgb(185, 185, 185);
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-top: 1px;
+    
+}
+.connect-text{
+    font-weight: 200;
+    font-size:1.4rem;
+}
+
+.connect-updated{
+    font-size:12px;
+
+}
+
+.connect special{
+    font-weight: 600;
+}
+
+@media (max-width:800px) {
+    .header{
+
+        width:90%;
+
+    }
+
+
+    .aboutme{
+        width:100%;
+    }
+    .projects .cards,.mentions .cards, .education, .experience{
+        width:100%;
+    }
+    .experience, .education{
+        padding-left:  40px;
+        padding-right: 40px;
+    }
+    .element-2{
+        display: none;
+        position:absolute;
+    }
+    .top{
+        justify-content: center;
+    }
+    
+    .mobile-name-title{
+        display:inline;
+    }
+    .name-title{
+        display: none !important;
+
+    }
+    mobile{
+        display:none;
+    }
+    .aboutme .cards{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .header-description{
+        width:auto;
+    }
+    .header{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .elements.header-sections{
+        padding-top: 10rem;
+    }
+    .projects .cards{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .experience-flexbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .connect{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .top .element-1 {
+        display:none;
+    }
+
+
+}
