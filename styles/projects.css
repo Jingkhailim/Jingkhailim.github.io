@@ -33,7 +33,7 @@
 .aboutme .cards{
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    gap:50px;
+    gap:80px;
     align-self: center;
     flex-wrap: wrap;
 
@@ -44,7 +44,7 @@
     display:inline;
 
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     color:#eaeaea;
 
     /* font-family: 'Manrope', sans-serif; */
@@ -56,10 +56,10 @@
 }
 .aboutme img{
     width:100%;
-    border-radius: 5px;
+
     margin-top: auto;
     margin-bottom: auto;
-    box-shadow: 15px 15px 0px rgba(255, 255, 255, 0.95);
+    box-shadow: 10px 10px 0px rgba(255, 255, 255, 0.95);
     
 }
 /*pads*/
