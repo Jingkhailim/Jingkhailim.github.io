@@ -44,7 +44,7 @@
     display:inline;
 
     font-weight: 200;
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     color:#eaeaea;
 
     /* font-family: 'Manrope', sans-serif; */
@@ -144,7 +144,7 @@
     align-self: center;
 }
 .card-tag{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 
 }
 
@@ -156,7 +156,7 @@
 .card-text{
     font-weight:200;
     transition:0.3s;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .card-text:hover{
@@ -269,7 +269,7 @@
 
 }
 .experience-description{
-    color:rgb(93, 93, 93);
+    color:rgb(71, 71, 71);
     margin-top: 10px;
     margin-bottom: 20px;
     font-size:1.3rem;
