@@ -59,6 +59,8 @@
     border-radius: 5px;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: 15px 15px 0px rgba(255, 255, 255, 0.95);
+    
 }
 /*pads*/
 .projects{
